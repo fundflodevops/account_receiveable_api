@@ -23,7 +23,7 @@ def AWS_API_LOWER='';
 def DOMAIN_NAME = ".fundflo.ai";
 
 // @Library('shared-library')_
-
+def call(Map params) {
 pipeline {
   agent any
     
@@ -383,6 +383,7 @@ stages {
         }
       }
     }
+}
 
     post {
       // always {
