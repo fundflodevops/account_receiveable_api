@@ -22,12 +22,12 @@ def AWS_ENV_LOWER='';
 def AWS_API_LOWER='';
 def DOMAIN_NAME = ".fundflo.ai";
 
-@Library('shared-library')_
+// @Library('shared-library')_
 
 pipeline {
   agent any
     
-  tools {nodejs "nodejs"}
+  // tools {nodejs "nodejs"}
   options {
     disableConcurrentBuilds()
     timeout(time: 1, unit: 'HOURS')
