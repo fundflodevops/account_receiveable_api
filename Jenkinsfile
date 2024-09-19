@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    def buildRepo2() {
         stages {
             stage('Build') {
                 steps {
@@ -10,6 +9,5 @@ pipeline {
             }
         }
     }
-}
 
 return this
