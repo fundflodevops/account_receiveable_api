@@ -1,6 +1,6 @@
-def buildRepo2() {
-    pipeline {
-        agent any
+pipeline {
+    agent any
+    def buildRepo2() {
         stages {
             stage('Build') {
                 steps {
